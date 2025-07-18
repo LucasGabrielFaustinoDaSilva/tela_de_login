@@ -8,6 +8,28 @@
       var(--cor-secundaria)
     );
   }
+  section#login {
+    width: 650px;
+  }
+
+  section#login > div#imagem {
+    float: left;
+    width: 40%;
+    height: 100%;
+  }
+
+  section#login > div#formulario {
+    float: right;
+    width: 60%;
+  }
+
+  div#formulario > h1 {
+    font-size: 2em;
+  }
+
+  div#formulario > p {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (min-width: 992px) {
